@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700');
+
+body{
+    font-family: 'Times New Roman';
+}
+
+.menu-bar {
+    background-image: linear-gradient(-100deg, #f9f0b6, #bc8531, #f9f0b6, #9c672a, #f9f0b6, #ca9b42);
+    width: 100%;
+}
+
+
+/*  carousel  */
+.teams .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover{
+    background: #f36980;
+}
+.teams .carousel .card img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5%;
+    border: 5px solid #f36980;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover img{
+    border-color: #fff;
+}
+.teams .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.teams .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    width: 14px;
+    height: 14px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid #f36980!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 15px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: #f36980!important;
+}
