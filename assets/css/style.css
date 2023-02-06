@@ -10,6 +10,7 @@ body{
 }
 
 
+
 /*  carousel  */
 .teams .carousel .card{
     background: #222;
@@ -66,4 +67,15 @@ body{
 .owl-dot.active,
 .owl-dot:hover{
     background: #f36980!important;
+}
+
+/*  responsivo  */
+@media (max-width: 690px){
+    .banner {
+      height: 510px;
+    }
+
+    .bannerhome {
+        height: 90%;
+    }
 }
