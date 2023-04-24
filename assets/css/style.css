@@ -14,6 +14,113 @@ body{
     text-indent: 15px;
 }
 
+/*  Card Profile  */
+
+section .card .image{
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #ca9b42;
+}
+
+section .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.card{
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 612px;
+}
+
+.card::before{
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: #ca9b42;
+    border-radius: 20px 20px 0 0;
+}
+
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.card .media-icons{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .media-icons i{
+    color: #fff;
+    opacity: 0.7;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card .media-icons i:hover{
+    opacity: 1;
+}
+
+.card .organizado{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: #333;
+}
+
+.organizado .name{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.organizado .profession{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.organizado .mail{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.organizado .mail i{
+    font-size: 20px;
+    color: #ca9b42;
+    opacity: 0.7;
+    padding-right: 10px;
+}
+
+.organizado .phone{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.organizado .phone i{
+    color: #ca9b42;
+    opacity: 0.7;
+    padding-right: 10px;
+}
+
 /*  Ler Mais e Menos  */
 .morecontent span {
     display: none;
@@ -21,7 +128,7 @@ body{
 
 .morelink {
     display: block;
-    color: goldenrod;
+    color: #ca9b42;
 }
 
 /*  responsivo  */
