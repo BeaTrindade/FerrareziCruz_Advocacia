@@ -9,16 +9,22 @@ body{
     width: 100%;
 }
 
-.justificando {
+.justificando p{
     text-align: justify;
-    text-indent: 15px;
+    font-size: 18px;
+   
 }
 
 /*  Card Profile  */
 
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 section .card .image{
-    height: 240px;
-    width: 240px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     padding: 3px;
     background: #ca9b42;
@@ -29,15 +35,20 @@ section .card .image img{
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #fff;
+    /*border: 3px solid #fff;*/
 }
 
 .card{
     position: relative;
     background: #fff;
     border-radius: 20px;
-    margin: 20px 0;
-    width: 612px;
+    margin: 10px 20px;
+    flex-direction: column;
+    width: 12px;
+    flex: 1 1 21rem;
+    padding: 10px 20px;
+    align-self: normal;
+    border: none;
 }
 
 .card::before{
@@ -46,7 +57,7 @@ section .card .image img{
     height: 40%;
     width: 100%;
     background: #ca9b42;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 0 0
 }
 
 .card .card-content{
@@ -94,24 +105,24 @@ section .card .image img{
 
 .organizado .profession{
     text-align: justify;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
 }
 
 .organizado .mail{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
 }
 
 .organizado .mail i{
-    font-size: 20px;
+    font-size: 17px;
     color: #ca9b42;
     opacity: 0.7;
     padding-right: 10px;
 }
 
 .organizado .phone{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
 }
 
